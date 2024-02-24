@@ -1,0 +1,547 @@
+header {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(249, 247, 247)), url("../img/cover.jpg");
+  height: 800px;
+  background-size: cover;
+}
+header nav {
+  text-align: center;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 15px;
+}
+header nav ul li a {
+  position: relative;
+  color: #fff;
+  font-size: 1.5rem;
+}
+header nav ul li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+header nav ul li a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+header #center {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 0px auto;
+}
+header #center #center-block {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+header #center #center-block h1 {
+  text-align: left;
+  padding: 20px 0px;
+  font-size: 4rem;
+}
+header #center #center-block h2 {
+  margin-top: 40px;
+  text-align: right;
+  padding: 20px 0px;
+  font-size: 3rem;
+  font-style: italic;
+}
+header #center #center-block .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 70%;
+  margin: 50px auto;
+  font-size: 1.5rem;
+}
+header #center #center-block .buttons .btn {
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+header #center #center-block .buttons a {
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 30px;
+  width: 200px;
+  font-weight: 700;
+}
+header #center #center-block .buttons a:hover {
+  background-color: #000;
+  color: #fff;
+}
+header #center #center-block .buttons .drugaBoja {
+  background-color: #000;
+  color: #fff;
+}
+header #center #center-block .buttons .drugaBoja:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#projects {
+  background-color: #f9f7f7;
+}
+#projects .projects-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  margin: 0px auto;
+}
+#projects .projects-reg .projects-blok {
+  margin: 20px;
+  width: 40%;
+}
+#projects .projects-reg .projects-blok img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.2s ease;
+}
+#projects .projects-reg .projects-blok img:hover {
+  transform: scale(1.01);
+}
+#projects .projects-reg .projects-blok .projects-naslov {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+#service {
+  background-image: linear-gradient(rgba(81, 186, 240, 0.3), rgba(81, 186, 240, 0.3)), url("../img/white-bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#service .service-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  width: 60%;
+  margin: 0px auto;
+  gap: 30px;
+}
+#service .service-reg .service-blok {
+  position: relative;
+  padding: 0px 20px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #174282;
+  border-radius: 40px;
+  width: 300px;
+  background: #f9f7f7;
+}
+#service .service-reg .service-blok .service-icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border-radius: 50%;
+  border: 6px solid #f9f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  background: #51BAF0;
+  font-size: 2rem;
+}
+#service .service-reg .service-blok p {
+  font-size: 1.2rem;
+}
+
+#about-me {
+  background-color: #f9f7f7;
+}
+#about-me #about-me-reg {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px auto;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+#about-me #about-me-reg .about-me-block {
+  width: 55%;
+}
+#about-me #about-me-reg .about-me-block img {
+  width: 85%;
+}
+#about-me #about-me-reg .about-me-block .author-text p {
+  font-size: 1.5rem;
+  line-height: 150%;
+  text-align: justify;
+}
+#about-me #about-me-reg .about-me-block .author-text .index {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+#about-me #about-me-reg .about-me-block .author-text .index .active {
+  color: #174282;
+}
+#about-me #about-me-reg .img {
+  width: 35%;
+}
+
+#form {
+  background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251, 0.04) 0%, rgba(251, 251, 251, 0.04) 50%, rgba(229, 229, 229, 0.04) 50%, rgba(229, 229, 229, 0.04) 100%), radial-gradient(circle at 66% 97%, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 50%, rgba(46, 46, 46, 0.04) 50%, rgba(46, 46, 46, 0.04) 100%), radial-gradient(circle at 86% 7%, rgba(81, 186, 240, 0) 0%, rgba(81, 186, 240, 0) 50%, rgba(200, 200, 200, 0.04) 50%, rgba(200, 200, 200, 0.04) 100%), radial-gradient(circle at 15% 16%, rgba(99, 99, 99, 0.04) 0%, rgba(99, 99, 99, 0.04) 50%, rgba(45, 45, 45, 0.04) 50%, rgba(45, 45, 45, 0.04) 100%), radial-gradient(circle at 75% 99%, rgba(243, 243, 243, 0.04) 0%, rgba(243, 243, 243, 0.04) 50%, rgba(37, 37, 37, 0.04) 50%, rgba(37, 37, 37, 0.04) 100%), linear-gradient(90deg, rgb(81, 186, 240), rgb(23, 66, 130));
+}
+#form #forma-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px 50px;
+}
+#form #forma-reg #forma-reg1 {
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(11.6px);
+          backdrop-filter: blur(11.6px);
+  margin: 50px;
+  width: 40%;
+  padding: 40px 20px;
+}
+#form #forma-reg #forma-reg1 .forma-block.forma-email input {
+  width: 100%;
+}
+#form #forma-reg #forma-reg1 .forma-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin: 10px auto;
+}
+#form #forma-reg #forma-reg1 .forma-block input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #f9f7f7;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 100%;
+  font-size: 1rem;
+}
+#form #forma-reg #forma-reg1 .forma-block input[type=submit] {
+  background-color: #51BAF0;
+  border: none;
+  border-radius: 10px;
+  width: 23%;
+  font-size: 1.3rem;
+  border: 2px solid #51BAF0;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s all ease-in-out;
+}
+#form #forma-reg #forma-reg1 .forma-block input[type=submit]:hover {
+  background-color: transparent;
+  color: #f9f7f7;
+}
+#form #forma-reg #forma-reg1 .forma-block ::-moz-placeholder {
+  color: #000;
+}
+#form #forma-reg #forma-reg1 .forma-block ::placeholder {
+  color: #000;
+}
+#form #forma-reg #forma-reg1 .forma-block textarea {
+  width: 100%;
+  resize: none;
+  background-color: #f9f7f7;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  font-size: 1rem;
+}
+#form #forma-reg #contact-data {
+  border-radius: 16px;
+  margin: 50px;
+  width: 30%;
+  padding: 40px 20px;
+}
+#form #forma-reg #contact-data .contact-block iframe {
+  margin: 5px auto;
+  width: 100%;
+  height: 300px;
+}
+#form #forma-reg #contact-data .contact-block .contact-block-items {
+  font-size: 1.5rem;
+  text-align: center;
+}
+#form #forma-reg #contact-data .contact-block .contact-block-items i {
+  padding: 15px 10px;
+  color: #fff;
+}
+#form #forma-reg #contact-data .contact-block .contact-block-items ul li {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 15px 0px;
+}
+#form #forma-reg #contact-data .contact-block .contact-block-items ul li i {
+  color: #000;
+  padding: 15px;
+  transition: 0.5s all ease-in-out;
+}
+#form #forma-reg #contact-data .contact-block .contact-block-items ul li i:hover {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+}
+footer .footer-info {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+footer .footer-info ul li {
+  display: inline-block;
+}
+footer .footer-info ul li a {
+  color: #174282;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1612px) {
+  #service .service-reg {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  header nav ul li {
+    margin: 5px;
+  }
+  #about-me #about-me-reg {
+    width: 90%;
+  }
+  #about-me #about-me-reg .about-me-block img {
+    width: 100%;
+  }
+  #about-me #about-me-reg .about-me-block .author-text p {
+    font-size: 1.3rem;
+  }
+  #form #forma-reg #forma-reg1 .forma-block input[type=submit] {
+    width: 30%;
+  }
+  #form #forma-reg #contact-data {
+    margin-left: 50px;
+    padding: 0px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1020px) {
+  #projects .projects-reg {
+    flex-wrap: wrap;
+  }
+  #projects .projects-reg .projects-blok {
+    width: auto;
+  }
+  header nav ul li {
+    padding: 20px 20px;
+  }
+  .more p {
+    font-size: 5rem;
+  }
+  #about-me #about-me-reg {
+    width: 95%;
+  }
+  #about-me #about-me-reg .about-me-block .author-text p {
+    font-size: 1.2rem;
+  }
+  #form {
+    background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251, 0.04) 0%, rgba(251, 251, 251, 0.04) 50%, rgba(229, 229, 229, 0.04) 50%, rgba(229, 229, 229, 0.04) 100%), radial-gradient(circle at 66% 97%, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 50%, rgba(46, 46, 46, 0.04) 50%, rgba(46, 46, 46, 0.04) 100%), radial-gradient(circle at 86% 7%, rgba(81, 186, 240, 0) 0%, rgba(81, 186, 240, 0) 50%, rgba(200, 200, 200, 0.04) 50%, rgba(200, 200, 200, 0.04) 100%), radial-gradient(circle at 15% 16%, rgba(99, 99, 99, 0.04) 0%, rgba(99, 99, 99, 0.04) 50%, rgba(45, 45, 45, 0.04) 50%, rgba(45, 45, 45, 0.04) 100%), radial-gradient(circle at 75% 99%, rgba(243, 243, 243, 0.04) 0%, rgba(243, 243, 243, 0.04) 50%, rgba(37, 37, 37, 0.04) 50%, rgba(37, 37, 37, 0.04) 100%), linear-gradient(90deg, rgb(81, 186, 240), rgb(23, 66, 130));
+  }
+  #form #forma-reg {
+    flex-wrap: wrap;
+  }
+  #form #forma-reg #forma-reg1 {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  #form #forma-reg #contact-data {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 830px) {
+  header nav ul li {
+    padding: 20px 14px;
+  }
+  header nav ul li a {
+    font-size: 1.3rem;
+  }
+  header #center {
+    width: 625px;
+  }
+  header #center #center-block h1 {
+    font-size: 2.5rem;
+  }
+  header #center #center-block h2 {
+    font-size: 1.5rem;
+  }
+  header #center #center-block .buttons {
+    width: 90%;
+  }
+  .more p {
+    font-size: 4rem;
+  }
+  #about-me #about-me-reg {
+    flex-direction: column;
+  }
+  #about-me #about-me-reg .about-me-block {
+    width: 40%;
+    margin-top: 15px;
+  }
+  #about-me #about-me-reg .about-me-block .author-text p {
+    text-align: center;
+  }
+  #form #forma-reg #forma-reg1 .forma-block {
+    flex-wrap: wrap;
+  }
+  #form #forma-reg #forma-reg1 .forma-block input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+  }
+  header #center {
+    width: 80%;
+    height: 400px;
+  }
+  header #center #center-block {
+    top: 10%;
+  }
+  header #center #center-block h1 {
+    padding: 0px;
+    font-size: 2.5rem;
+  }
+  header #center #center-block h2 {
+    font-size: 1.5rem;
+  }
+  header #center #center-block .buttons {
+    width: auto;
+    font-size: 1.1rem;
+  }
+  header #center #center-block .buttons a {
+    padding: 10px 30px;
+    width: auto;
+  }
+  .naslov {
+    font-size: 1.5rem;
+  }
+  .more p {
+    font-size: 3rem;
+  }
+  #form #forma-reg #forma-reg1 .forma-block input[type=submit] {
+    width: 120px;
+  }
+  #form #forma-reg #contact-data .contact-block .contact-block-items i {
+    display: block;
+  }
+}
+@media screen and (max-width: 440px) {
+  header nav ul li {
+    display: block;
+    margin: 0px auto;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(97, 96, 96, 0.3);
+  }
+  header nav ul li a {
+    font-size: 1.3rem;
+  }
+  header #center {
+    width: auto;
+  }
+  #form #forma-reg #forma-reg1 .forma-block input {
+    font-size: 0.8rem;
+  }
+  #form #forma-reg #contact-data {
+    margin-left: 50px;
+    padding: 0px;
+    width: auto;
+  }
+  #form #forma-reg #contact-data .contact-block .contact-block-items {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 345px) {
+  header #center #center-block .buttons {
+    font-size: 0.9rem;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.naslov {
+  text-align: center;
+  font-size: 2rem;
+  color: #174282;
+  padding-top: 1.5rem;
+}
+
+.pos {
+  position: relative;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  aspect-ratio: 21.4/10.7;
+  z-index: 2;
+  background-color: rgb(226, 226, 255);
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.more p {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.none {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

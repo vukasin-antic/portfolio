@@ -1,0 +1,272 @@
+@media screen and (max-width: 1612px){
+    #service{
+        .service-reg{
+            width: 80%;
+        }
+    }
+}
+@media screen and (max-width: 1280px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 5px;         
+                }
+            }
+        }
+    }
+    #about-me{
+        #about-me-reg{
+            width: 90%;
+            .about-me-block{
+                img{
+                    width: 100%;
+                }
+                .author-text{
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+            }   
+        }
+    }
+    #form{
+        #forma-reg{
+            #forma-reg1{
+                .forma-block{
+                    input[type="submit"]{
+                        width: 30%;
+                    }
+                }
+            }
+            #contact-data{
+                margin-left: 50px;
+                padding: 0px;
+                width: auto;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1020px){
+    #projects{
+        .projects-reg{
+            flex-wrap: wrap;
+            .projects-blok{
+                width: auto;
+            }
+        }
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    padding: 20px 20px;
+                }
+            }
+        }
+    }
+    .more{
+        p{
+            font-size: 5rem;
+        }
+    }
+    #about-me{
+        #about-me-reg{
+            width: 95%;
+            .about-me-block{
+                .author-text{
+                    p{
+                        font-size: 1.2rem;
+                    }
+                }
+            }   
+        }
+    }
+    #form{
+        background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 50%,rgba(229, 229, 229,0.04) 50%, rgba(229, 229, 229,0.04) 100%),radial-gradient(circle at 66% 97%, rgba(36, 36, 36,0.04) 0%, rgba(36, 36, 36,0.04) 50%,rgba(46, 46, 46,0.04) 50%, rgba(46, 46, 46,0.04) 100%),radial-gradient(circle at 86% 7%, rgba(81,186,240, 0) 0%, rgba(81,186,240, 0) 50%,rgba(200, 200, 200,0.04) 50%, rgba(200, 200, 200,0.04) 100%),radial-gradient(circle at 15% 16%, rgba(99, 99, 99,0.04) 0%, rgba(99, 99, 99,0.04) 50%,rgba(45, 45, 45,0.04) 50%, rgba(45, 45, 45,0.04) 100%),radial-gradient(circle at 75% 99%, rgba(243, 243, 243,0.04) 0%, rgba(243, 243, 243,0.04) 50%,rgba(37, 37, 37,0.04) 50%, rgba(37, 37, 37,0.04) 100%),linear-gradient(90deg, rgb(81,186,240),rgb(23,66,130));
+        #forma-reg{
+            flex-wrap: wrap;
+
+            #forma-reg1{
+                width: 100%;
+                margin-bottom: 0px;
+                padding-bottom: 10px;
+            }
+            #contact-data{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 830px){
+    header{
+        nav{
+            ul{
+                li{
+                    padding: 20px 14px;
+                    a{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        #center{
+            width: 625px;
+            #center-block{
+                h1{
+                    font-size: $primary-naslov;
+                }
+                h2{
+                    font-size: $secondary-naslov;
+                }
+                .buttons{
+                    width: 90%;
+                }
+            }
+        }
+            
+    }
+    .more{
+        p{
+            font-size: 4rem;
+        }
+    }
+    #about-me{
+        #about-me-reg{
+            flex-direction: column;
+            .about-me-block{
+                width: 40%;
+                margin-top: 15px;
+                .author-text{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    #form{
+        #forma-reg{
+            #forma-reg1{
+            .forma-block{
+                flex-wrap: wrap;
+                    input{
+                        width: 100%;
+                    }
+                }
+            }   
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    header{
+        height: auto;
+        #center{
+            width: 80%;
+            height: 400px;
+            #center-block{
+                    top: 10%;
+                h1{
+                    padding: 0px;
+                    font-size: $primary-naslov;
+                }
+                h2{
+                    font-size: $secondary-naslov;
+                }
+                .buttons{
+                    width: auto;
+                    font-size: 1.1rem;
+                    a{
+                        padding: 10px 30px;
+                        width: auto;
+                    }
+                    
+                }
+            }
+        }
+            
+    }
+    .naslov{
+        font-size: $secondary-naslov;
+    }
+    .more{
+        p{
+            font-size: 3rem;
+        }
+    }
+    #form{
+        #forma-reg{
+            #forma-reg1{
+                .forma-block{
+                    input[type="submit"]{
+                        width: 120px;
+                    }
+                }
+            }
+            #contact-data{
+                .contact-block{
+                    .contact-block-items{
+                        i{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 440px){
+    header{
+        nav{
+            ul{
+                li{
+                    display: block;
+                    margin: 0px auto;
+                    border-bottom: 1px solid $white;
+                    width: 100%;
+                    padding: 10px;
+                    background-color: rgba(97, 96, 96, .3);
+                    a{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        #center{
+            width: auto;
+        }    
+    }
+    #form{
+        #forma-reg{
+            #forma-reg1{
+                .forma-block{
+                    input{
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            #contact-data{
+                margin-left: 50px;
+                padding: 0px;
+                width: auto;
+                .contact-block{
+                    .contact-block-items{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 345px){
+    header{
+        #center{
+            #center-block{
+                .buttons{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+#projects{
+    background-color: #f9f7f7;
+    .projects-reg{
+        @include position();
+        width: 100%;
+        padding: 10px;
+        margin: 0px auto;
+        .projects-blok{
+            margin: 20px;
+            width: 40%;
+            img{
+                width: 100%;
+                border-radius: 20px;
+                transition: transform 0.2s ease;
+                &:hover{
+                    transform: scale(1.01);
+                }
+            }
+            .projects-naslov{
+                text-align: center;
+                padding: 10px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+#service{
+    background-image: linear-gradient(rgba(81, 186, 240, 0.3), rgb(81, 186, 240, 0.3)), url('../img/white-bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    .service-reg{
+        @include position();
+        flex-wrap: wrap;
+        padding-top: 3rem;
+        width: 60%;
+        margin: 0px auto;
+        gap: 30px;
+        .service-blok{
+            position: relative;
+            padding: 0px 20px;
+            padding-top: 45px;
+            padding-bottom: 35px;
+            margin-bottom: 50px;
+            text-align: center;
+            border: 1px solid $primary-color;
+            border-radius: 40px;
+            width: 300px;
+            background: #f9f7f7;
+            .service-icon{
+                position: absolute;
+                top: -36px;
+                left: calc(50% - 36px);
+                border-radius: 50%;
+                border: 6px solid #f9f7f7;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 72px;
+                height: 72px;
+                background: $secondary-color;   
+                font-size: 2rem;       
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
