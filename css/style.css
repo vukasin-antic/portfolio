@@ -242,7 +242,7 @@ header #center #center-block .buttons .drugaBoja:hover {
   padding: 10px 20px;
   margin: 20px;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 #form #forma-reg #forma-reg1 .forma-block input[type=submit] {
   background-color: #51BAF0;
@@ -370,9 +370,6 @@ footer .footer-info ul li a {
   #about-me #about-me-reg .about-me-block .author-text p {
     font-size: 1.2rem;
   }
-  #form {
-    background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251, 0.04) 0%, rgba(251, 251, 251, 0.04) 50%, rgba(229, 229, 229, 0.04) 50%, rgba(229, 229, 229, 0.04) 100%), radial-gradient(circle at 66% 97%, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 50%, rgba(46, 46, 46, 0.04) 50%, rgba(46, 46, 46, 0.04) 100%), radial-gradient(circle at 86% 7%, rgba(81, 186, 240, 0) 0%, rgba(81, 186, 240, 0) 50%, rgba(200, 200, 200, 0.04) 50%, rgba(200, 200, 200, 0.04) 100%), radial-gradient(circle at 15% 16%, rgba(99, 99, 99, 0.04) 0%, rgba(99, 99, 99, 0.04) 50%, rgba(45, 45, 45, 0.04) 50%, rgba(45, 45, 45, 0.04) 100%), radial-gradient(circle at 75% 99%, rgba(243, 243, 243, 0.04) 0%, rgba(243, 243, 243, 0.04) 50%, rgba(37, 37, 37, 0.04) 50%, rgba(37, 37, 37, 0.04) 100%), linear-gradient(90deg, rgb(81, 186, 240), rgb(23, 66, 130));
-  }
   #form #forma-reg {
     flex-wrap: wrap;
   }
@@ -478,8 +475,12 @@ footer .footer-info ul li a {
   header #center {
     width: auto;
   }
-  #form #forma-reg #forma-reg1 .forma-block input {
-    font-size: 0.8rem;
+  #form #forma-reg {
+    margin: 0px 30px;
+  }
+  #form #forma-reg #forma-reg1 {
+    margin: 0px;
+    margin-top: 50px;
   }
   #form #forma-reg #contact-data {
     margin-left: 50px;
