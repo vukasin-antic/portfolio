@@ -98,7 +98,7 @@ header #center #center-block .buttons .drugaBoja:hover {
 #projects .projects-reg {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
   flex-direction: row;
   width: 100%;
   padding: 10px;
