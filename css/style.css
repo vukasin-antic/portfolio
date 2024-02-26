@@ -495,6 +495,9 @@ footer .footer-info ul li a {
   header #center #center-block .buttons {
     font-size: 0.9rem;
   }
+  #form #forma-reg #contact-data .contact-block .contact-block-items {
+    font-size: 1.2rem;
+  }
 }
 * {
   margin: 0px;
