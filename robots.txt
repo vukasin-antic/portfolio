@@ -1,2 +1,2 @@
 User-agent: *
-Disalow: /admin/
+Disalow: 
