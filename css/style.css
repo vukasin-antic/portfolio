@@ -183,7 +183,7 @@ header #center #center-block .buttons .drugaBoja:hover {
   gap: 20px;
 }
 #about-me #about-me-reg .about-me-block {
-  width: 55%;
+  width: 85%;
 }
 #about-me #about-me-reg .about-me-block img {
   width: 85%;
@@ -202,7 +202,7 @@ header #center #center-block .buttons .drugaBoja:hover {
   color: #174282;
 }
 #about-me #about-me-reg .img {
-  width: 35%;
+  width: 45%;
 }
 
 #form {
@@ -408,11 +408,7 @@ footer .footer-info ul li a {
     flex-direction: column;
   }
   #about-me #about-me-reg .about-me-block {
-    width: 40%;
     margin-top: 15px;
-  }
-  #about-me #about-me-reg .about-me-block .author-text p {
-    text-align: center;
   }
   #form #forma-reg #forma-reg1 .forma-block {
     flex-wrap: wrap;
@@ -444,7 +440,7 @@ footer .footer-info ul li a {
     font-size: 1.1rem;
   }
   header #center #center-block .buttons a {
-    padding: 10px 30px;
+    padding: 10px 20px;
     width: auto;
   }
   .naslov {
@@ -474,6 +470,9 @@ footer .footer-info ul li a {
   }
   header #center {
     width: auto;
+  }
+  #about-me #about-me-reg .img {
+    width: 75%;
   }
   #form #forma-reg {
     margin: 0px 30px;

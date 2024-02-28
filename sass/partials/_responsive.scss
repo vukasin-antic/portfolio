@@ -134,13 +134,7 @@
         #about-me-reg{
             flex-direction: column;
             .about-me-block{
-                width: 40%;
                 margin-top: 15px;
-                .author-text{
-                    p{
-                        text-align: center;
-                    }
-                }
             }
         }
     }
@@ -176,7 +170,7 @@
                     width: auto;
                     font-size: 1.1rem;
                     a{
-                        padding: 10px 30px;
+                        padding: 10px 20px;
                         width: auto;
                     }
                     
@@ -234,6 +228,13 @@
         #center{
             width: auto;
         }    
+    }
+    #about-me{
+        #about-me-reg{
+            .img{
+                width: 75%;
+            }
+        }
     }
     #form{
         #forma-reg{

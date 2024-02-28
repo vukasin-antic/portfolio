@@ -8,7 +8,7 @@
         padding-bottom: 50px;
         gap: 20px;
         .about-me-block{
-            width: 55%;
+            width: 85%;
             img{
                 width: 85%;
             }
@@ -29,7 +29,7 @@
             }
         }
         .img{
-            width: 35%;
+            width: 45%;
         }
     }
 }
@@ -94,6 +94,7 @@
             }
         }
         #contact-data{
+            border-radius: 16px;
             margin: 50px;
             width: 30%;
             padding: 40px 20px;
